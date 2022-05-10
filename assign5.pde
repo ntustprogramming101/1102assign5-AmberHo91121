@@ -190,7 +190,7 @@ void initCabbages(){
     cabbageY[i] = SOIL_SIZE * ( i * 4 + floor(random(4)));
     
     //if they're at the same position
-    if( cabbageX[i] == soldierX[i] && cabbageY[i]==soldierY[i]){
+    if( cabbageX[i] == clockX[i] && cabbageY[i]==clockY[i]){
       initCabbages();
     }
   }
